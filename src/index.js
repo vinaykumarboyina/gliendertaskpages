@@ -2,8 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+// import Attendance from './components/attendance';
 import reportWebVitals from './reportWebVitals';
 
+// import AllZones from './components/allzones';
+// import Profile from './components/profile';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -1,0 +1,86 @@
+import { BiDotsVerticalRounded } from "react-icons/bi";
+
+import "./employees.css";
+
+const Employee = () => {
+  return (
+    <>
+     
+        <div className="employee-body-container">
+          <div className="employee-heading-container">
+            <h1 className="my-heading">Employees</h1>
+            <button className="create-new-button">CREATE NEW</button>
+          </div>
+          <div className="employee-header">
+            <h3 style={{ marginRight: "20px", color: "white", paddingLeft:'10px' }}>Employee</h3>
+            <h3 style={{ marginLeft: '56%', color: "white" }}>Role</h3>
+          </div>
+          <div className="list-items">
+            <div className="list-details">
+              <img
+                src="https://res.cloudinary.com/dpro7vkjb/image/upload/v1653473013/profile1_obc11l.png"
+                alt="employee"
+                className="employee-img"
+              />
+              <p style={{ color: "white"  }}>Naveen Challa</p>
+            </div>
+
+            <p style={{ color: "white" }}>Role</p>
+            <div>
+              <BiDotsVerticalRounded style={{ color: "white" , marginRight:"10px"}} />
+            </div>
+          </div>
+
+          <div className="list-items">
+            <div className="list-details">
+              <img
+                src="https://res.cloudinary.com/dpro7vkjb/image/upload/v1653473013/profile1_obc11l.png"
+                alt="employee"
+                className="employee-img"
+              />
+              <p style={{ color: "white" }}>Naveen Challa</p>
+            </div>
+
+            <p style={{ color: "white" }}>Role</p>
+            <div>
+              <BiDotsVerticalRounded style={{ color: "white", marginRight:"10px" }} />
+            </div>
+          </div>
+
+          <div className="list-items">
+            <div className="list-details">
+              <img
+                src="https://res.cloudinary.com/dpro7vkjb/image/upload/v1653473013/profile1_obc11l.png"
+                alt="employee"
+                className="employee-img"
+              />
+              <p style={{ color: "white" }}>Naveen Challa</p>
+            </div>
+
+            <p style={{ color: "white" }}>Role</p>
+            <div>
+              <BiDotsVerticalRounded style={{ color: "white" , marginRight:"10px"}} />
+            </div>
+          </div>
+          <div className="list-items">
+            <div className="list-details">
+              <img
+                src="https://res.cloudinary.com/dpro7vkjb/image/upload/v1653473013/profile1_obc11l.png"
+                alt="employee"
+                className="employee-img"
+              />
+              <p style={{ color: "white" }}>Naveen Challa</p>
+            </div>
+
+            <p style={{ color: "white" }}>Role</p>
+            <div>
+              <BiDotsVerticalRounded style={{ color: "white" , marginRight:"10px"}} />
+            </div>
+          </div>
+        </div>
+    
+    </>
+  );
+};
+
+export default Employee;
