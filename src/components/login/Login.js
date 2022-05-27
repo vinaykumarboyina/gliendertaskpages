@@ -1,6 +1,6 @@
 import {useState} from 'react'
 import Cookies from 'js-cookie'
-import Header from "./Header";
+import Header from "../header/Header";
 import {Link, useHistory} from 'react-router-dom'
 import "./Login.css";
 

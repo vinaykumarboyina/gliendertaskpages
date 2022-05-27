@@ -29,6 +29,14 @@
     background-color:#2e2e2e;
     padding:6px;
 }
+.employee{
+    margin-right:200px;
+    color:#ffffff;
+}
+.role{
+    color:#ffffff;
+    margin-left:58%;
+}
 .employee-img{
     height:50px;
     width:50px;

@@ -12,8 +12,8 @@ const Employee = () => {
             <button className="create-new-button">CREATE NEW</button>
           </div>
           <div className="employee-header">
-            <h3 style={{ marginRight: "20px", color: "white", paddingLeft:'10px' }}>Employee</h3>
-            <h3 style={{ marginLeft: '56%', color: "white" }}>Role</h3>
+            <h3 className='employee'>Employee</h3>
+            <h3 className='role'>Role</h3>
           </div>
           <div className="list-items">
             <div className="list-details">
@@ -22,10 +22,10 @@ const Employee = () => {
                 alt="employee"
                 className="employee-img"
               />
-              <p style={{ color: "white"  }}>Naveen Challa</p>
+              <p style={{color:'#ffffff'}} >Naveen Challa</p>
             </div>
 
-            <p style={{ color: "white" }}>Role</p>
+            <p style={{color:'#ffffff'}}>Role</p>
             <div>
               <BiDotsVerticalRounded style={{ color: "white" , marginRight:"10px"}} />
             </div>

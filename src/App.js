@@ -1,27 +1,18 @@
-import {Switch, Route, BrowserRouter} from 'react-router-dom'
-import Forgot from "./components/Forgot";
-import Login from "./components/Login";
-import Home from './components/Home';
-
-
+// import { Switch, Route, BrowserRouter } from "react-router-dom";
+// import Forgot from "./components/login/Forgot";
+// import Login from "./components/login/Login";
+// import Home from "./components/home/Home";
+// import Routes from "./Routes";
+import Header from "./components/header/Header";
+// import Sidebar from "./components/sidebar/sidebar";
 
 const App = () => {
-    return (
-        <BrowserRouter>
-        
-       <Switch>
-           <Route path='/login'>
-               <Login />
-           </Route>
-           <Route path = '/'>
-               <Home />
-           </Route>
-           <Route path = '/forgot'>
-               <Forgot />
-           </Route>
-       </Switch>
-       </BrowserRouter>
-    )
-}
+  return (
+    <>
+      <Header />
+      {/* <Routes /> */}
+    </>
+  );
+};
 
 export default App;

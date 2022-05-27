@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import './icons/icons.css'
 // import Attendance from './components/attendance';
 import reportWebVitals from './reportWebVitals';
 

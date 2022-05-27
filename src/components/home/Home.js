@@ -2,12 +2,12 @@ import Cookies from "js-cookie"
 import { Redirect, Link, useHistory, Route} from "react-router-dom"
 import './Home.css'
 import {GiHamburgerMenu} from 'react-icons/gi'
-import Sidebar from "./sidebar"
+import Sidebar from "../sidebar/sidebar"
 import Popup from "reactjs-popup"
-import Dashboard from "./dashboard"
-import Attendance from './attendance'
-import AllZones from "./allzones"
-import Employees from "./employees"
+import Dashboard from "../dashboard/dashboard"
+import Attendance from '../attendance/attendance'
+import AllZones from "../allzones/allzones"
+import Employees from "../employees/employees"
 
 
 
@@ -31,7 +31,7 @@ const Home= () => {
             <div className='nav-content'>
             <div className='menu-container'>
                 <GiHamburgerMenu className='menu-icon' />
-                <h1 className='glieder-scan'>Glieder scan</h1>
+                <h1 className='glieder-scan'>Glider scan</h1>
             </div>
             <div className='profile-container'>
                     <p className='admin-name'>Hi Admin</p>

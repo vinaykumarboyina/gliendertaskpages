@@ -10,6 +10,7 @@ import {IoMdBriefcase} from 'react-icons/io'
 const Sidebar = () => {
     return (
         <div className='sidebar-container'>
+            {/* <span className='icon-dashboard'>hello</span> */}
            <Link to='/dashboard'><RiDashboardFill className='menu-icons' /></Link> 
            <Link to='/attendance'><FaCalendarDay className='menu-icons' /></Link> 
            <Link to='/allzones'><MdAddLocation className='menu-icons' /></Link> 
